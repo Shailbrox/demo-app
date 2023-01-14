@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       name: mypod
-      labes:
+      labels:
         app: frontend
     spec:
       containers:
