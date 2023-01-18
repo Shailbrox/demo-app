@@ -17,6 +17,7 @@ spec:
     spec:
       containers:
         - name: mywebapp
+          imagePullPolicy: Always
           image: shailbrox/newapp:v1
           ports:
             - containerPort: 80      
